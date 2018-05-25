@@ -14,6 +14,6 @@ public class Ch02Ex02_05 {
 		num1 = Float.parseFloat(input1);
 		
 		double a = num * num1;
-		System.out.printf("%f * %f = %f%n", num, num1, a);
+		System.out.printf("%.0f * %f = %f%n", num, num1, a);
 	}
 }
