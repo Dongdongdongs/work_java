@@ -12,7 +12,7 @@ public class Ch02Ex01_05 {
 		System.out.printf("%15s %15s %15s%n", Daegu, d, dd);
 		System.out.printf("%15s %15s %15s%n", Gwangju, e, ee);
 			
-		
+		//System.out.printf("%15s%15s%15s%n", asdf, asdf, asdf);
 		
 	}
 }

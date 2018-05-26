@@ -1,7 +1,7 @@
 package ch02;
 import java.util.*;
 
-public class Ch02Ex_09 {
+public class Ch02Ex02_09 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);

@@ -18,6 +18,16 @@ public class Ch02Ex02_12 {
 		
 		System.out.printf("%.2f * %d = %.0f", aa, a, aaa);
 				
-		
+	/*
+	 * String strNum1 = scanner.nextLine();
+	 * String strNum2 = scanner.nextLine();
+	 * 
+	 * int num1 = Integer.parseInt(strNum1);
+	 * double num2 = Double.parseDouble(strNum2);
+	 * 
+	 * double result = num1 * num2;
+	 * 
+	 * System.out.printf(%.2f * %d = %.0f", num2, num1, result);	
+	 */
 	}
 }
