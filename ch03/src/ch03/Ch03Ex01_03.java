@@ -12,15 +12,10 @@ public static void main(String[] args) {
 	String input1 = scanner.nextLine();
 	int num1 = Integer.parseInt(input1);
 	
-	num++;
-	int numA = num;
-	int numB = --num1;
-	int numC = numA*numB;
+
+	int numC = num++*--num1;
 	
-	System.out.printf("%d %d %d", numA, numB, numC);
-	//int numC = num++*--num1;
-	
-	//System.out.printf("%d %d %d", num, num1, numC);
+	System.out.printf("%d %d %d", num, num1, numC);
 	
 	
 	

@@ -14,6 +14,6 @@ public class Ch03Ex01_07 {
 		int num2 = Integer.parseInt(input2);
 		
 		
-		System.out.printf("%b %b", num > num1 && num > num2, num == num1 || num == num2);
+		System.out.printf("%b %b", num > num1 && num > num2, num == num1 && num == num2);
 	}
 }
