@@ -6,6 +6,11 @@ public class Ch03Ex02_02 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
+		//String[] numbers = scanner.nextLine().split(" ");
+		//int width = Integer.parseInt(numbers[0]);
+		//int length = Integer.parseInt(numbers[1]);
+		
+		
 		String input = scanner.nextLine();
 		String input1 = scanner.nextLine();
 		

@@ -16,6 +16,14 @@ public static void main(String[] args) {
 	System.out.printf("%d %d%n",++num, num1--);
 	System.out.printf("%d %d%n",num, num1);
 			
-	
+	/*
+	 * String[] numbers = scanner.nextLine().split(" ");
+	 * int num1 = Integer.parseInt(numbers[0])
+	 * int num2 = Integer.parseInt(numbers[1])
+	 * 
+	 * System.out.prntf(%d %d%n", ++num1, num2--);
+	 * System.out.prntf(%d %d%n", num1, num2);
+	 * 
+	 */
 }
 }

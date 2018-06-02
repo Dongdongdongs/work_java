@@ -15,6 +15,8 @@ public static void main(String[] args) {
 	int num1 = Integer.parseInt(input1);
 	int num2 = Integer.parseInt(input2);
 	
+	// double = avg = (num + num1 + num2) / 3.0;
+	
 	// 플롯형으로 변경하여 3개의 정수의 합을 구한후 3으로 나누고,
 	// 소수 첫째자리까지 출력
 	System.out.printf("%.1f",(float)(num+num1+num2)/3);

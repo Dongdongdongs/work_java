@@ -1,29 +1,33 @@
 package ch03;
 
+import java.util.Scanner;
+
 public class Ex {
 public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
 	
+	String input = scanner.next();
+	String input1 = scanner.next();
+	
+	int num, leg, dog, chick;
+	
+	num = Integer.parseInt(input);
+	leg = Integer.parseInt(input1);
+	
+	int dogleg = 4;
+	int chickleg = 2;
+	
+	if(num <= 1000 && leg <= 4000) {
+		
+	} else if(num > 1000 && leg > 4000)   {
+		System.out.printf("INPUT ERROR!");
+			
+	}  
+		
+	//if((1 <= num && num <= 1000) && (1 <= num1 && num1 <= 4000))   {
+	//	System.out.printf("%d %d", num, num1);
+	//}	
 
-	
-	
-	int fahrenheit = 100;
-	float celcius = (float)((int)((float)5/9*(fahrenheit - 32)*100)+1)/100;
-	System.out.println("Fahrenheit:"+fahrenheit);
-	System.out.println("Celcius:"+celcius);
-
-	/*
-	char ch = '1';
-	boolean b = ('a' <= ch && ch <= 'z') || ('A' <= ch && ch <= 'Z') || ('0' <= ch && ch <= '9');
-	
-	System.out.println(b);
-	
-	
-	char ch1 = 'B';
-	char lowerCase = (char) ('A' <= ch1 && ch1 <= 'Z' ? ch1+32 : ch1);
-	System.out.println("ch:"+ch1);
-	System.out.println("ch to lowerCase:"+lowerCase);
-	*/
-	
 	
 }
 }
