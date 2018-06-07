@@ -2,11 +2,27 @@ package ch04;
 
 public class Ex {
 	public static void main(String[] args) {
+		
+		String value = "12o34";
 		char ch = ' ';
-		//int x = 0;
+		boolean isNumber = true;
+		// 반복문과 charAt(int i)를 이용해서 문자열의 문자를
+		// 하나씩 읽어서 검사한다.
+		for(int i=0; i < value.length() ;i++) {
+			ch = value.charAt(i);
+			if(isNumber = '0' <= ch && ch <= '9' ? false : true) {
+				isNumber = false;
+				break;				
+			}
+		}
+		if (isNumber) {
+		System.out.println(value+"는 숫자입니다.");
+		} else {
+		System.out.println(value+"는 숫자가 아닙니다.");
+		}	
 		
-		System.out.printf("%b", ' ' != ch || ch != '	');
-		//System.out.printf("%b", 'x' == ch || ch == 'X');
 		
+
+
 	}
 }
