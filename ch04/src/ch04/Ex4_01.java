@@ -32,5 +32,6 @@ public class Ex4_01 {
 	boolean eight = str.equals("Yes");
 	boolean eighttwo = "yes".equals(str);
 	
+	System.out.println(sixtwo);
 }
 }
