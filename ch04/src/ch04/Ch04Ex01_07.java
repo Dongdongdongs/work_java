@@ -7,6 +7,8 @@ public class Ch04Ex01_07 {
 		Scanner scanner = new Scanner(System.in);
 		
 		String input = scanner.nextLine();
+		/*char grade = scanner.nextLine().charAt(0);*/
+		// 문자(char)는 작은 따옴표, 문자열(String)은 큰따옴표 
 		
 		switch(input) {
 		case "A" :

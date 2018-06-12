@@ -6,13 +6,31 @@ public class Ch04Ex01_06 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		
+		/*
 		String gender = scanner.next();
 		String input1 = scanner.next();
 		
 		 int age = Integer.parseInt(input1);
-		 
-		 switch(gender) {
+		*/
+		
+		String[] inputs = scanner.nextLine().split(" ");
+		String gender = inputs[0];
+		int age = Integer.parseInt(inputs[1]);
+		/*
+		if(gender.equals("M") && age >= 18) {
+			System.out.println("MAN");
+		}
+		if(gender.equals("F") && age >= 18) {
+			System.out.println("WOMAN");
+		}
+		if(gender.equals("M") && age < 18) {
+			System.out.println("BOY");
+		}
+		if(gender.equals("F") && age < 18) {
+			System.out.println("GIRL");
+		}
+		
+		switch(gender) {
 		 case "F" :
 			 if(age >= 18) {
 				 System.out.println("WOMAN");
@@ -27,19 +45,7 @@ public class Ch04Ex01_06 {
 				 System.out.println("BOY");
 			 }
 		 }
-		 
-		 
-		/*if(gender == "M") {
-		} else if (age >= 18) {
-			System.out.println("Man");
-		} else if (age < 18) {
-			System.out.println("Boy");
-		} else if(gender == "F") {
-		} else if (age >= 18) {
-			System.out.println("Woman");
-		} else {
-			System.out.println("Girl");
-		}*/
-		
+		 */
+
 	}
 }

@@ -15,11 +15,11 @@ public class Ch04Ex02_15 {
 			}
 			System.out.println();
 			}
-		for(i = num; i <= num; i--) {
-		for(j = 0; j >= 0 ; j--) {
+		/*for(i = num; i <= num; i--) {
+			for(j = i; j >= 0 ; j--) {
 			System.out.printf("*");
 		}System.out.println();
-		}
+		}*/
 
 	}
 }

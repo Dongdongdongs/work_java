@@ -2,6 +2,8 @@ package ch04;
 
 import java.util.Scanner;
 
+import javax.swing.plaf.synth.SynthSeparatorUI;
+
 public class Ch04Ex01_14 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -23,6 +25,20 @@ public class Ch04Ex01_14 {
 				System.out.println("30");
 				break;
 			
+			}
+		}
+		if(1 <= month && month <= 12) {
+			boolean isOdd = month % 2 != 0; // 홀수이면 true
+			boolean is90rLess = month <= 9; // 9d월 이하이면 true
+			
+			if (isOdd && is90rLess) {
+				System.out.println(31);
+			} else if (month == 2) {
+				System.out.println(28);
+			} else if(month == 10 || month == 12) {
+				System.out.println(31);
+			} else {
+				System.out.println(30);
 			}
 		}
 	}
