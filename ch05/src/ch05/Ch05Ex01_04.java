@@ -13,7 +13,7 @@ public class Ch05Ex01_04 {
 			for(int i = 0; i < arr.length; i++) {
 				num[i] = Integer.parseInt(arr[i]);
 			}
-			if(num[]== 0) {
+			if(num[] == 0) {
 				break;
 			}
 		}
