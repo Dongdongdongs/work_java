@@ -18,7 +18,11 @@ public class Ch05Ex01_10 {
 			} else {
 				break;
 			}
-			
+		}
+		for(int i = 0; i < ch.length; i++) {
+			if(count[i] > 0) {
+				System.out.printf("%s : %d%n", 'A'+i, count[i]);
+			}
 		}
 	}
 }
