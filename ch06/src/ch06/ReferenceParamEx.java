@@ -13,7 +13,7 @@ class ReferenceParamEx {
 		System.out.println("main() : x = " + d.x);
 	}
 	
-	static void change(Data d) {		// 참조형 매개변수
+	static void change(Data d) {		// 참조형 매개변수(파라매터)	클래스, 스트링 등등 참조형
 		d.x = 1000;
 		System.out.println("change() : x = " + d.x);
 	}

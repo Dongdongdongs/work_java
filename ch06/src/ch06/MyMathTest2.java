@@ -11,7 +11,7 @@ class MyMath2{
 	
 	// 인스턴스변수와 관계없이 매개변수만으로 작업이 가능하다.
 	
-	static long		add(long a, long b)			{ return a + b; }
+	static long		add(long a, long b)			{ return a + b; }	// a, b 는 지역변수
 	static long		subtract(long a, long b)	{ return a - b; }
 	static long 	multiply(long a, long b)	{ return a * b; }
 	static double	divide(double a, double b)	{ return a / b; }
@@ -20,6 +20,7 @@ class MyMath2{
 
 class MyMathTest2 {
 	public static void main(String[] args) {
+		// 클래스메서드 호출. 인스턴스 생성없이 호출 가능
 		System.out.println(MyMath2.add(200L, 100L));
 		System.out.println(MyMath2.subtract(200L, 100L));
 		System.out.println(MyMath2.multiply(200L, 100L));

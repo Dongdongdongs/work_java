@@ -2,6 +2,12 @@ package ch06;
 
 class OverloadingTest {
 	public static void main(String[] args) {
+		/*
+		오버로딩의 조건
+		
+		1. 매서드 이름이 같아야 한다.
+		2. 매개변수(파라메터)의 개수 또는 타입이 달라야 한다.
+		*/
 		MyMath3 mm = new MyMath3();
 		System.out.println("mm.add(3, 3) 결과 : "		+ mm.add(3, 3));
 		System.out.println("mm.add(3L, 3) 결과 : "		+ mm.add(3L, 3));

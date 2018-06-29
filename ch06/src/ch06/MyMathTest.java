@@ -16,9 +16,9 @@ class MyMathTest {
 }
 
 class MyMath{
-	long add(long a, long b) {
+	long add(long a, long b) {		// 메서드의 파라메터 long a, long b
 		long result = a + b;
-		return result;
+		return result;		// 여기서의 리턴은 add를 호출하기 전 으로 돌아감
 		// return a + b;		// 위의 두 줄을 이와 같이 한줄로 같이 할수 있다.
 	}
 	
